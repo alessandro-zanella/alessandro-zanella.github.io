@@ -2,24 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://alessandro-zanella.github.io/</loc>
+    <loc>https://alessandro-zanella.github.io/</loc>
     <lastmod>2023-12-14T15:21:02+02:00</lastmod>
   </url><url>
-    <loc>http://alessandro-zanella.github.io/dir1/b/</loc>
+    <loc>https://alessandro-zanella.github.io/dir1/b/</loc>
     <lastmod>2023-12-14T15:21:02+02:00</lastmod>
   </url><url>
-    <loc>http://alessandro-zanella.github.io/dir1/</loc>
+    <loc>https://alessandro-zanella.github.io/dir1/</loc>
     <lastmod>2023-12-14T15:21:02+02:00</lastmod>
   </url><url>
-    <loc>http://alessandro-zanella.github.io/a/</loc>
+    <loc>https://alessandro-zanella.github.io/a/</loc>
     <lastmod>2023-12-14T15:19:39+02:00</lastmod>
   </url><url>
-    <loc>http://alessandro-zanella.github.io/archive/</loc>
+    <loc>https://alessandro-zanella.github.io/archive/</loc>
   </url><url>
-    <loc>http://alessandro-zanella.github.io/categories/</loc>
+    <loc>https://alessandro-zanella.github.io/categories/</loc>
   </url><url>
-    <loc>http://alessandro-zanella.github.io/search/</loc>
+    <loc>https://alessandro-zanella.github.io/search/</loc>
   </url><url>
-    <loc>http://alessandro-zanella.github.io/tags/</loc>
+    <loc>https://alessandro-zanella.github.io/tags/</loc>
   </url>
 </urlset>
