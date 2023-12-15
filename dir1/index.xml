@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Dir1s on Alessandro Zanella</title>
-    <link>/dir1/</link>
+    <link>https://alessandro-zanella.github.io/dir1/</link>
     <description>Recent content in Dir1s on Alessandro Zanella</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 14 Dec 2023 15:21:02 +0200</lastBuildDate><atom:link href="/dir1/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 14 Dec 2023 15:21:02 +0200</lastBuildDate><atom:link href="https://alessandro-zanella.github.io/dir1/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>B</title>
-      <link>/dir1/b/</link>
+      <link>https://alessandro-zanella.github.io/dir1/b/</link>
       <pubDate>Thu, 14 Dec 2023 15:21:02 +0200</pubDate>
       
-      <guid>/dir1/b/</guid>
+      <guid>https://alessandro-zanella.github.io/dir1/b/</guid>
       <description>This is my great Markdown Site! howdy partner.</description>
     </item>
     
