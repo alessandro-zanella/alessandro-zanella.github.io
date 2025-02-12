@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <link>/</link>
+    <description>Recent content on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 08 Jun 2010 08:06:25 +0600</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <item>
+      <title>A practical Guide To Penetration Testing</title>
+      <link>/wiki/practical-guide-to-pentesting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/wiki/practical-guide-to-pentesting/</guid>
+      <description>&lt;h3 id=&#34;complete-post-coming-soon&#34;&gt;Complete Post Coming Soon&amp;hellip;&lt;/h3&gt;</description>
+    </item>
+    
+    <item>
+      <title>Analytics and Comments</title>
+      <link>/posts/zawnjin_dashboard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/zawnjin_dashboard/</guid>
+      <description>&lt;h3 id=&#34;complete-post-coming-soon&#34;&gt;Complete Post Coming Soon&amp;hellip;&lt;/h3&gt;</description>
+    </item>
+    
+    <item>
+      <title>Internal Link Crawler/Scraper</title>
+      <link>/project_ideas/website_internal_link_crawler/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/project_ideas/website_internal_link_crawler/</guid>
+      <description>&lt;h3 id=&#34;a-python-scrapercrawler-app-that-check-a-websites-page-source-code-for-internal-links-and-visits-those-links-to-gather-more-links-with-compliancy--safety-measures&#34;&gt;A Python Scraper/Crawler App That Check a Websites Page Source Code for internal Links and visits those links to gather more links (With Compliancy &amp;amp; Safety measures)&lt;/h3&gt;
+&lt;h2 id=&#34;compliance--safety&#34;&gt;Compliance &amp;amp; Safety&lt;/h2&gt;
+&lt;p&gt;Using web crawlers like the Python script I provided is &lt;strong&gt;not inherently illegal&lt;/strong&gt;, but it depends on &lt;strong&gt;how and where&lt;/strong&gt; you use them. Here are the key legal and ethical considerations:&lt;/p&gt;
+&lt;h3 id=&#34;1-check-the-websites-robotstxt-file&#34;&gt;&lt;strong&gt;1. Check the Website’s &lt;code&gt;robots.txt&lt;/code&gt; File&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Most websites have a &lt;code&gt;robots.txt&lt;/code&gt; file (e.g., &lt;code&gt;https://example.com/robots.txt&lt;/code&gt;) that specifies which pages can or cannot be crawled. While &lt;code&gt;robots.txt&lt;/code&gt; isn’t legally binding in most cases, &lt;strong&gt;ignoring it may violate terms of service&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    
+    
+  </channel>
+</rss>

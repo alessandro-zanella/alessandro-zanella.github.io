@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Internal Link Crawler/Scraper</title>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+<link rel="stylesheet" href="/application.fe273a712a6074bc3765bb2d133270d271164ab40d8782c559b9bc971217ad1a.css" integrity="sha256-/ic6cSpgdLw3ZbstEzJw0nEWSrQNh4LFWbm8lxIXrRo=" />
+
+
+
+
+
+
+
+<meta property="og:url" content="/project_ideas/website_internal_link_crawler/">
+  <meta property="og:title" content="Internal Link Crawler/Scraper">
+  <meta property="og:description" content="App that gathers internal links on Website and checks for usable links">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="project_ideas">
+
+    
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Internal Link Crawler/Scraper">
+  <meta name="twitter:description" content="App that gathers internal links on Website and checks for usable links">
+
+    
+    
+<meta name="description" content="App that gathers internal links on Website and checks for usable links" />
+
+
+
+    
+
+
+
+
+
+    <script integrity="sha256-DO4ugzEwhTW1Id1UIWn0gUJWaebCYOypeTit6LW4QB4=">
+     let theme = localStorage.getItem('theme-scheme') || localStorage.getItem('darkmode:color-scheme') || 'light'
+if (theme === 'system') {
+  if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    theme = 'dark'
+  } else {
+    theme = 'light'
+  }
+}
+document.documentElement.setAttribute('data-theme', theme)
+
+    </script>
+    
+  </head>
+
+  <body class="type-project_ideas kind-page" data-bs-spy="scroll" data-bs-target="#TableOfContents" data-bs-offset="80">
+    <div class="container-fluid bg-secondary wrapper">
+      
+      
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+
+<nav class="navbar navbar-expand-xl top-navbar shadow " id="top-navbar">
+  <div class="container">
+    
+    <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button">
+      <i data-feather="sidebar"></i>
+    </button>
+    
+    <a class="navbar-brand" href="/">
+      Home</a>
+    <button
+      class="navbar-toggler navbar-light"
+      id="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#top-nav-items"
+      aria-label="menu"
+    >
+      <i data-feather="menu"></i>
+    </button>
+
+    <div class="collapse navbar-collapse dynamic-navbar" id="top-nav-items">
+      <ul class="nav navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/#home">Home</a>
+        </li>
+        
+          
+          
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="/#about">About</a>
+                </li>
+              
+            
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="/#skills">Skills</a>
+                </li>
+              
+            
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="/#experiences">Experiences</a>
+                </li>
+              
+            
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="/#projects">Projects</a>
+                </li>
+              
+            
+            
+            
+              
+              
+            
+            
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                
+                
+                  
+                    
+                    
+                  
+                  
+                    
+                    
+                  
+                  
+                    
+                    
+                  
+                  
+                    
+                    
+                  
+                  
+                  
+                    
+                    
+                      <a class="dropdown-item" href="/#recent-posts">Recent Posts</a>
+                    
+                  
+                  
+              </div>
+            </li>
+          
+        
+        
+          <div id="top-navbar-divider"></div>
+        
+        
+        
+        
+            
+              <li class="nav-item">
+                <a class="nav-link" href="https://github.com/zawnjin">Github</a>
+              </li>
+            
+        
+            
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.linkedin.com/in/alessandro-zanella-456614350/">LinkedIn</a>
+              </li>
+            
+        
+            
+              <li class="nav-item">
+                <a class="nav-link" href="/blog">Blog</a>
+              </li>
+            
+        
+        
+        
+      </ul>
+    </div>
+  </div>
+  
+  
+  
+  
+</nav>
+
+
+
+      
+      
+  <section class="sidebar-section" id="sidebar-section">
+    <div class="sidebar-holder">
+      <div class="sidebar" id="sidebar">
+        <form class="mx-auto" method="get" action="/search">
+          <input type="text" name="keyword" value="" placeholder="Search" data-search="" id="search-box" />
+        </form>
+        <div class="sidebar-tree">
+          <ul class="tree" id="tree">
+            <li id="list-heading"><a href="/posts/" data-filter="all">Posts</a></li>
+            <div class="subtree">
+                
+  
+  
+  
+  
+  
+    
+    <li>
+      <i data-feather="plus-circle"></i><a class=" list-link" href="/wiki/"> White Hat Wiki</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class=" list-link" href="/wiki/practical-guide-to-pentesting/" title="Practical Guide To Pentesting">Practical Guide To Pentesting</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+    
+    <li>
+      <i data-feather="minus-circle"></i><a class="active list-link" href="/project_ideas/"> Project Ideas</a>
+      
+      <ul class="active">
+        
+  
+  
+  
+  
+    
+    
+  
+  
+    
+    <li><a class="active list-link" href="/project_ideas/website_internal_link_crawler/" title="Internal Link Crawler">Internal Link Crawler</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class=" list-link" href="/posts/zawnjin_dashboard/" title="Analytics &amp; Comments">Analytics &amp; Comments</a></li>
+  
+
+
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+      
+      
+<section class="content-section" id="content-section">
+  <div class="content">
+    <div class="container p-0 read-area">
+      
+      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(/images/posts/post_bg_1.png);'>
+      </div>
+
+      
+      <div class="page-content">
+        
+        <div class="author-profile ms-auto align-self-lg-center">
+          <img class="rounded-circle" src='/images/default-avatar_hu_6d79d272213fd23a.png' alt="Author Image">
+          <h5 class="author-name">Zawnjin | Alessandro Zanella</h5>
+          <p class="text-muted">Monday, January 1, 1</p>
+        </div>
+        
+
+        <div class="title">
+          <h1>Internal Link Crawler/Scraper</h1>
+        </div>
+
+        
+
+        
+        <div class="post-content" id="post-content">
+          <h3 id="a-python-scrapercrawler-app-that-check-a-websites-page-source-code-for-internal-links-and-visits-those-links-to-gather-more-links-with-compliancy--safety-measures">A Python Scraper/Crawler App That Check a Websites Page Source Code for internal Links and visits those links to gather more links (With Compliancy &amp; Safety measures)</h3>
+<h2 id="compliance--safety">Compliance &amp; Safety</h2>
+<p>Using web crawlers like the Python script I provided is <strong>not inherently illegal</strong>, but it depends on <strong>how and where</strong> you use them. Here are the key legal and ethical considerations:</p>
+<h3 id="1-check-the-websites-robotstxt-file"><strong>1. Check the Website’s <code>robots.txt</code> File</strong></h3>
+<p>Most websites have a <code>robots.txt</code> file (e.g., <code>https://example.com/robots.txt</code>) that specifies which pages can or cannot be crawled. While <code>robots.txt</code> isn’t legally binding in most cases, <strong>ignoring it may violate terms of service</strong>.</p>
+<h3 id="2-website-terms-of-service-tos-violations"><strong>2. Website Terms of Service (ToS) Violations</strong></h3>
+<p>Many websites explicitly forbid automated scraping in their ToS. <strong>Bypassing these rules could result in legal consequences</strong>, such as being banned from the site or even facing civil action (e.g., breach of contract).</p>
+<h3 id="3-copyright--data-privacy-laws"><strong>3. Copyright &amp; Data Privacy Laws</strong></h3>
+<ul>
+<li><strong>Scraping personal data</strong> (e.g., emails, user info) may violate privacy laws like <strong>GDPR (EU)</strong> or <strong>CCPA (California)</strong>.</li>
+<li><strong>Copying large portions of content</strong> could breach copyright laws.</li>
+</ul>
+<h3 id="4-avoid-ddos--overloading-servers"><strong>4. Avoid DDoS &amp; Overloading Servers</strong></h3>
+<p>Sending too many requests in a short time <strong>may be considered an attack</strong>. Some websites <strong>block IPs</strong> or <strong>take legal action</strong> against abusive crawlers. Always use <strong>rate limiting</strong> (e.g., <code>time.sleep(1)</code>).</p>
+<h3 id="5-web-scraping-court-cases"><strong>5. Web Scraping Court Cases</strong></h3>
+<ul>
+<li><strong>Legal (or not enforced):</strong>
+<ul>
+<li><em>HiQ Labs v. LinkedIn (2022)</em> – A court ruled that scraping <strong>publicly available data</strong> does not violate the <strong>Computer Fraud and Abuse Act (CFAA)</strong>.</li>
+</ul>
+</li>
+<li><strong>Illegal:</strong>
+<ul>
+<li><em>Facebook v. Power Ventures</em> – Scraping behind a login page <strong>without permission</strong> was ruled illegal under CFAA.</li>
+</ul>
+</li>
+</ul>
+<h3 id="how-to-stay-safe"><strong>How to Stay Safe?</strong></h3>
+<p>✅ Follow <code>robots.txt</code> rules.<br>
+✅ Only scrape <strong>public</strong> pages.<br>
+✅ Respect <strong>rate limits</strong> (don’t flood servers).<br>
+✅ Avoid scraping <strong>personal/private data</strong>.<br>
+✅ Read the website’s <strong>ToS</strong> before scraping.</p>
+
+        </div>
+
+        
+        <div class="row ps-3 pe-3">
+        
+          <div class="col-md-6 share-buttons">
+          
+          </div>
+
+        
+        
+        </div>
+
+
+
+      
+      <hr />
+        
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+
+  
+    
+    
+  
+  
+
+  
+  
+
+
+<div class="row next-prev-navigator">
+  
+    <div class="col-md-6 previous-article">
+      <a href="/wiki/practical-guide-to-pentesting/" title="A practical Guide To Penetration Testing" class="btn filled-button">
+        <div><i class="fas fa-chevron-circle-left"></i> Prev</div>
+        <div class="next-prev-text">A practical Guide To Penetration Testing</div>
+      </a>
+    </div>
+  
+  
+      
+      
+        
+      
+      <div class="col-md-6 next-article">
+        <a href="/posts/zawnjin_dashboard/" title="Analytics and Comments" class="btn filled-button">
+          <div>Next <i class="fas fa-chevron-circle-right"></i></div>
+          <div class="next-prev-text">Analytics and Comments</div>
+        </a>
+      </div>
+    
+</div>
+
+      <hr />
+
+      
+      
+
+      
+      
+
+      </div>
+    </div>
+  </div>
+  
+  <a id="scroll-to-top" class="btn" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="Scroll to top">
+    <i class="fas fa-chevron-circle-up"></i>
+  </a>
+</section>
+
+
+      
+      
+  <section class="toc-section" id="toc-section">
+    
+  </section>
+
+    </div>
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+    
+    
+      
+    
+  
+
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+    
+  
+  
+
+  
+  
+  
+
+  <footer id="footer" class="container-fluid text-center align-content-center footer pb-2">
+    <div class="container pt-5">
+      <div class="row text-start">
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Navigation</h5>
+          
+          <ul>
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#about">About</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#skills">Skills</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#experiences">Experiences</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#projects">Projects</a>
+                </li>
+              
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#recent-posts">Recent Posts</a>
+                </li>
+              
+              
+            
+              
+                
+                    <li class="nav-item">
+                      <a class="smooth-scroll" href="https://github.com/zawnjin">Github</a>
+                    </li>
+                
+              
+                
+                    <li class="nav-item">
+                      <a class="smooth-scroll" href="https://www.linkedin.com/in/alessandro-zanella-456614350/">LinkedIn</a>
+                    </li>
+                
+              
+                
+              
+            
+          </ul>
+          
+        </div>
+        
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Contact me:</h5>
+          <ul>
+            
+              
+                <li><a href=mailto:zawnjin@gmail.com target="_blank" rel="noopener">
+                  <span><i class="fas fa-envelope"></i></span> <span>zawnjin@gmail.com</span>
+                </a></li>
+              
+            
+              
+                <li>
+                  
+                  <a href=https://www.linkedin.com/in/alessandro-zanella-456614350/ target="_blank" rel="noopener">
+                    <span><i class=fab&#32;fa-linkedin></i></span> <span>LinkedIn</span>
+                  </a>
+                  
+                </li>
+              
+            
+              
+                <li><a href=tel:&#43;40%20791354045 target="_blank" rel="noopener">
+                  <span><i class="fas fa-phone-alt"></i></span> <span>&#43;40 791354045</span>
+                </a></li>
+              
+            
+          </ul>
+        </div>
+        
+        
+        
+          
+          <div class="col-md-4 col-sm-12">
+            <p>Stay up to date with email notification</p>
+            
+              <form method='post' action='https://blogtrottr.com'>
+              <div class="form-group">
+              <input type='email' class="form-control" name='btr_email' placeholder="Enter email"/><br />
+              <input type='hidden' name='btr_url' value='//index.xml' />
+              <input type='hidden' name='schedule_type' value='1' />
+              <small id="emailHelp" class="form-text text-muted">By entering your email address, you agree to receive the newsletter of this website.</small>
+              <button type="submit" class="btn btn-info"> Submit </button>
+              </div>
+              </form>
+            
+          </div>
+        
+      </div>
+    </div>
+    
+    
+    <hr />
+    <div class="container">
+      <div class="row text-start">
+        <div class="col-md-4">
+          <a id="theme" href="https://github.com/hugo-toha/toha" target="_blank" rel="noopener">
+            <img src="/images/theme-logo_hu_b3360284c55cf72d.png" alt="Toha Theme Logo">
+            Toha
+          </a>
+        </div>
+        <div class="col-md-4 text-center">© 2024 Copyright.</div>
+        <div class="col-md-4 text-end">
+          <a id="hugo" href="https://gohugo.io/" target="_blank" rel="noopener">Powered by
+          <img
+            src="/images/hugo-logo.svg"
+            alt="Hugo Logo"
+            height="18"
+          />
+          </a>
+        </div>
+      </div>
+    </div>
+    
+  </footer>
+
+
+    <script src="/application.c632c45612552e58b0511809f63391ee0bbd975ec4211a257008854a9533a8b4.js" integrity="sha256-xjLEVhJVLliwURgJ9jOR7gu9l17EIRolcAiFSpUzqLQ=" defer></script>
+
+
+    
+     
+
+    
+</body>
+</html>
