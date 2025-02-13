@@ -2,15 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on </title>
-    <link>/posts/</link>
+    <link>https://alessandro-zanella.com/posts/</link>
     <description>Recent content in Posts on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" /><item>
+    <language>en</language><atom:link href="https://alessandro-zanella.com/posts/index.xml" rel="self" type="application/rss+xml" /><item>
       <title>Personal Pentesting Helper App</title>
-      <link>/posts/personal_pentesting_help_app/</link>
+      <link>https://alessandro-zanella.com/posts/personal_pentesting_help_app/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/posts/personal_pentesting_help_app/</guid>
+      <guid>https://alessandro-zanella.com/posts/personal_pentesting_help_app/</guid>
       <description>&lt;h2 id=&#34;project-idea-personal-pentesting-help-app&#34;&gt;Project Idea: Personal Pentesting Help App&lt;/h2&gt;
 &lt;h3 id=&#34;overview&#34;&gt;Overview&lt;/h3&gt;
 &lt;p&gt;The Personal Pentesting Help App is a tool designed to assist security professionals and enthusiasts in performing penetration tests. The app features a user-friendly interface and provides easy-to-copy commands tailored to specific vulnerabilities.&lt;/p&gt;

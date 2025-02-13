@@ -2,15 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Project Ideas on </title>
-    <link>/project_ideas/</link>
+    <link>https://alessandro-zanella.com/project_ideas/</link>
     <description>Recent content in Project Ideas on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="/project_ideas/index.xml" rel="self" type="application/rss+xml" /><item>
+    <language>en</language><atom:link href="https://alessandro-zanella.com/project_ideas/index.xml" rel="self" type="application/rss+xml" /><item>
       <title>Internal Link Crawler/Scraper</title>
-      <link>/project_ideas/website_internal_link_crawler/</link>
+      <link>https://alessandro-zanella.com/project_ideas/website_internal_link_crawler/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/project_ideas/website_internal_link_crawler/</guid>
+      <guid>https://alessandro-zanella.com/project_ideas/website_internal_link_crawler/</guid>
       <description>&lt;h3 id=&#34;a-python-scrapercrawler-app-that-check-a-websites-page-source-code-for-internal-links-and-visits-those-links-to-gather-more-links-with-compliancy--safety-measures&#34;&gt;A Python Scraper/Crawler App That Check a Websites Page Source Code for internal Links and visits those links to gather more links (With Compliancy &amp;amp; Safety measures)&lt;/h3&gt;
 &lt;h2 id=&#34;compliance--safety&#34;&gt;Compliance &amp;amp; Safety&lt;/h2&gt;
 &lt;p&gt;Using web crawlers like the Python script I provided is &lt;strong&gt;not inherently illegal&lt;/strong&gt;, but it depends on &lt;strong&gt;how and where&lt;/strong&gt; you use them. Here are the key legal and ethical considerations:&lt;/p&gt;

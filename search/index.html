@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Resultados de Búsqueda</title>
+    <title>Search Results</title>
     <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -14,13 +14,13 @@
 
 
 
-<meta property="og:url" content="/search/">
-  <meta property="og:title" content="Resultados de Búsqueda">
-  <meta property="og:description" content="Este archivo existe únicamente para responder a la URL /search con la plantilla de diseño search relacionada.
-No se muestra ningún contenido aquí, todo el contenido se basa en la plantilla layouts/page/search.html
-Establecer una prioridad muy baja en el mapa del sitio le dirá a los motores de búsqueda que éste no es un contenido importante.
-Esta implementación utiliza Fusejs, jquery y mark.js
-Configuración inicial La búsqueda depende del tipo de contenido de salida adicional de JSON en config.toml">
+<meta property="og:url" content="https://alessandro-zanella.com/search/">
+  <meta property="og:title" content="Search Results">
+  <meta property="og:description" content="This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [“HTML”, “JSON”] ```">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="search">
@@ -29,12 +29,12 @@ Configuración inicial La búsqueda depende del tipo de contenido de salida adic
 
     
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Resultados de Búsqueda">
-  <meta name="twitter:description" content="Este archivo existe únicamente para responder a la URL /search con la plantilla de diseño search relacionada.
-No se muestra ningún contenido aquí, todo el contenido se basa en la plantilla layouts/page/search.html
-Establecer una prioridad muy baja en el mapa del sitio le dirá a los motores de búsqueda que éste no es un contenido importante.
-Esta implementación utiliza Fusejs, jquery y mark.js
-Configuración inicial La búsqueda depende del tipo de contenido de salida adicional de JSON en config.toml">
+  <meta name="twitter:title" content="Search Results">
+  <meta name="twitter:description" content="This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [“HTML”, “JSON”] ```">
 
     
      
@@ -168,9 +168,9 @@ document.documentElement.setAttribute('data-theme', theme)
               
             
             
+              
+              
             
-              
-              
             
             
           
@@ -196,11 +196,11 @@ document.documentElement.setAttribute('data-theme', theme)
                     
                   
                   
-                  
                     
                     
                       <a class="dropdown-item" href="/#recent-posts">Recent Posts</a>
                     
+                  
                   
                   
               </div>
@@ -442,7 +442,7 @@ document.documentElement.setAttribute('data-theme', theme)
                   
                 
                 <li class="nav-item">
-                  <a class="smooth-scroll" href="/#about">About</a>
+                  <a class="smooth-scroll" href="https://alessandro-zanella.com/#about">About</a>
                 </li>
               
               
@@ -451,7 +451,7 @@ document.documentElement.setAttribute('data-theme', theme)
                   
                 
                 <li class="nav-item">
-                  <a class="smooth-scroll" href="/#skills">Skills</a>
+                  <a class="smooth-scroll" href="https://alessandro-zanella.com/#skills">Skills</a>
                 </li>
               
               
@@ -460,7 +460,7 @@ document.documentElement.setAttribute('data-theme', theme)
                   
                 
                 <li class="nav-item">
-                  <a class="smooth-scroll" href="/#experiences">Experiences</a>
+                  <a class="smooth-scroll" href="https://alessandro-zanella.com/#experiences">Experiences</a>
                 </li>
               
               
@@ -469,8 +469,9 @@ document.documentElement.setAttribute('data-theme', theme)
                   
                 
                 <li class="nav-item">
-                  <a class="smooth-scroll" href="/#projects">Projects</a>
+                  <a class="smooth-scroll" href="https://alessandro-zanella.com/#projects">Projects</a>
                 </li>
+              
               
               
                 
@@ -478,9 +479,8 @@ document.documentElement.setAttribute('data-theme', theme)
                   
                 
                 <li class="nav-item">
-                  <a class="smooth-scroll" href="/#recent-posts">Recent Posts</a>
+                  <a class="smooth-scroll" href="https://alessandro-zanella.com/#recent-posts">Recent Posts</a>
                 </li>
-              
               
               
             
@@ -543,7 +543,7 @@ document.documentElement.setAttribute('data-theme', theme)
               <form method='post' action='https://blogtrottr.com'>
               <div class="form-group">
               <input type='email' class="form-control" name='btr_email' placeholder="Enter email"/><br />
-              <input type='hidden' name='btr_url' value='//index.xml' />
+              <input type='hidden' name='btr_url' value='https://alessandro-zanella.com//index.xml' />
               <input type='hidden' name='schedule_type' value='1' />
               <small id="emailHelp" class="form-text text-muted">By entering your email address, you agree to receive the newsletter of this website.</small>
               <button type="submit" class="btn btn-info"> Submit </button>
