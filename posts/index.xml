@@ -2,16 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on </title>
-    <link>//localhost:1313/posts/</link>
+    <link>/posts/</link>
     <description>Recent content in Posts on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" /><item>
-      <title>Analytics and Comments</title>
-      <link>//localhost:1313/posts/personal_pentesting_help_app/</link>
+    <language>en</language><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Personal Pentesting Helper App</title>
+      <link>/posts/personal_pentesting_help_app/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/posts/personal_pentesting_help_app/</guid>
-      <description>&lt;h3 id=&#34;complete-post-coming-soon&#34;&gt;Complete Post Coming Soon&amp;hellip;&lt;/h3&gt;</description>
+      <guid>/posts/personal_pentesting_help_app/</guid>
+      <description>&lt;h2 id=&#34;project-idea-personal-pentesting-help-app&#34;&gt;Project Idea: Personal Pentesting Help App&lt;/h2&gt;
+&lt;h3 id=&#34;overview&#34;&gt;Overview&lt;/h3&gt;
+&lt;p&gt;The Personal Pentesting Help App is a tool designed to assist security professionals and enthusiasts in performing penetration tests. The app features a user-friendly interface and provides easy-to-copy commands tailored to specific vulnerabilities.&lt;/p&gt;
+&lt;h3 id=&#34;features&#34;&gt;Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;User-Friendly Interface&lt;/strong&gt;: A clean and intuitive UI that simplifies the process of selecting and executing pentesting commands.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Vulnerability-Specific Commands&lt;/strong&gt;: Commands are categorized based on the type of vulnerability, making it easy to find and use the right tools for the job.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Command Copy Functionality&lt;/strong&gt;: Quickly copy commands to your clipboard with a single click, streamlining the pentesting workflow.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Regular Updates&lt;/strong&gt;: The app will be regularly updated with new commands and techniques to keep up with the latest security trends.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;benefits&#34;&gt;Benefits&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Efficiency&lt;/strong&gt;: Save time by having all necessary commands at your fingertips.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Accuracy&lt;/strong&gt;: Reduce the risk of errors by using pre-defined, tested commands.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Learning Tool&lt;/strong&gt;: Ideal for both beginners and experienced pentesters, providing a valuable resource for learning and reference.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h3&gt;
+&lt;p&gt;The Personal Pentesting Help App aims to make the process of penetration testing more efficient and accessible, empowering users to identify and address security vulnerabilities effectively.&lt;/p&gt;</description>
     </item>
     
     

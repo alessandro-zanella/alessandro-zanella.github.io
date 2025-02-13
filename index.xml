@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title></title>
-    <link>//localhost:1313/</link>
+    <link>/</link>
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 08 Jun 2010 08:06:25 +0600</lastBuildDate><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 08 Jun 2010 08:06:25 +0600</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     
@@ -33,19 +33,19 @@
     
     <item>
       <title>A practical Guide To Penetration Testing</title>
-      <link>//localhost:1313/wiki/practical-guide-to-pentesting/</link>
+      <link>/wiki/practical-guide-to-pentesting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/wiki/practical-guide-to-pentesting/</guid>
+      <guid>/wiki/practical-guide-to-pentesting/</guid>
       <description>&lt;h3 id=&#34;complete-post-coming-soon&#34;&gt;Complete Post Coming Soon&amp;hellip;&lt;/h3&gt;</description>
     </item>
     
     <item>
       <title>Internal Link Crawler/Scraper</title>
-      <link>//localhost:1313/project_ideas/website_internal_link_crawler/</link>
+      <link>/project_ideas/website_internal_link_crawler/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/project_ideas/website_internal_link_crawler/</guid>
+      <guid>/project_ideas/website_internal_link_crawler/</guid>
       <description>&lt;h3 id=&#34;a-python-scrapercrawler-app-that-check-a-websites-page-source-code-for-internal-links-and-visits-those-links-to-gather-more-links-with-compliancy--safety-measures&#34;&gt;A Python Scraper/Crawler App That Check a Websites Page Source Code for internal Links and visits those links to gather more links (With Compliancy &amp;amp; Safety measures)&lt;/h3&gt;
 &lt;h2 id=&#34;compliance--safety&#34;&gt;Compliance &amp;amp; Safety&lt;/h2&gt;
 &lt;p&gt;Using web crawlers like the Python script I provided is &lt;strong&gt;not inherently illegal&lt;/strong&gt;, but it depends on &lt;strong&gt;how and where&lt;/strong&gt; you use them. Here are the key legal and ethical considerations:&lt;/p&gt;
@@ -55,10 +55,10 @@
     
     <item>
       <title>Personal Pentesting Helper App</title>
-      <link>//localhost:1313/posts/personal_pentesting_help_app/</link>
+      <link>/posts/personal_pentesting_help_app/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/posts/personal_pentesting_help_app/</guid>
+      <guid>/posts/personal_pentesting_help_app/</guid>
       <description>&lt;h2 id=&#34;project-idea-personal-pentesting-help-app&#34;&gt;Project Idea: Personal Pentesting Help App&lt;/h2&gt;
 &lt;h3 id=&#34;overview&#34;&gt;Overview&lt;/h3&gt;
 &lt;p&gt;The Personal Pentesting Help App is a tool designed to assist security professionals and enthusiasts in performing penetration tests. The app features a user-friendly interface and provides easy-to-copy commands tailored to specific vulnerabilities.&lt;/p&gt;
