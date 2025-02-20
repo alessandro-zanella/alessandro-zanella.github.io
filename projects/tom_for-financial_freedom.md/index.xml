@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The Only Manager for Financial Freedom on </title>
+    <link>https://alessandro-zanella.com/projects/tom_for-financial_freedom.md/</link>
+    <description>Recent content in The Only Manager for Financial Freedom on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://alessandro-zanella.com/projects/tom_for-financial_freedom.md/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Phase 1 Design and Planning</title>
+      <link>https://alessandro-zanella.com/projects/tom_for-financial_freedom.md/phase1_planning_and_design/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://alessandro-zanella.com/projects/tom_for-financial_freedom.md/phase1_planning_and_design/</guid>
+      <description>&lt;h3 id=&#34;phase-1-planning--design&#34;&gt;&lt;strong&gt;Phase 1: Planning &amp;amp; Design&lt;/strong&gt;&lt;/h3&gt;
+&lt;h4 id=&#34;1-project-scope--requirements&#34;&gt;&lt;strong&gt;1. Project Scope &amp;amp; Requirements&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Objective:&lt;/strong&gt; Build an MVP for Finance One Stop App focusing on real-time financial tracking and AI-driven insights.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Core Features:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Real-time stock and crypto data streaming.&lt;/li&gt;
+&lt;li&gt;AI-driven analytics and predictions.&lt;/li&gt;
+&lt;li&gt;Secure user authentication and management.
+&lt;ul&gt;
+&lt;li&gt;Modular microservices architecture.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Constraints:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Maintain simplicity for a solo developer.&lt;/li&gt;
+&lt;li&gt;Ensure scalable architecture without excessive complexity.&lt;/li&gt;
+&lt;li&gt;Use Docker for consistent development and deployment.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;2-high-level-architecture-overview&#34;&gt;&lt;strong&gt;2. High-Level Architecture Overview&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;A &lt;strong&gt;Microservices-Based&lt;/strong&gt; approach with the following key components:&lt;/p&gt;</description>
+    </item>
+    
+    
+  </channel>
+</rss>
